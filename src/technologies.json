@@ -1282,6 +1282,17 @@
       },
       "website": "http://www.w3.org/Amaya"
     },
+    "Amazee.io": {
+      "cats": [
+        62
+      ],
+      "description": "Amazee.io offers enterprise-grade, secure, scalable, open-sourced container hosting.",
+      "headers": {
+        "x-amazeeio": ""
+      },
+      "icon": "amazeeio.png",
+      "website": "https://www.amazee.io/hosting"
+    },
     "Amazon ALB": {
       "cats": [
         65
@@ -7154,6 +7165,20 @@
       "scripts": "ib\\.guestonline\\.\\w+",
       "website": "https://www.guestonline.io"
     },
+    "HCL Commerce": {
+      "cats": [
+        6
+      ],
+      "html": "<(?:a|link|script)[^>]*(?:href|src)=\".*(?:/wcsstore/|webapp\\/wcs)",
+      "icon": "HCL Commerce.svg",
+      "implies": "Java",
+      "pricing": [
+        "poa"
+      ],
+      "saas": true,
+      "url": "/wcs/",
+      "website": "https://www.hcltechsw.com/products/commerce"
+    },
     "HCL Digital Experience": {
       "cats": [
         1
@@ -7589,20 +7614,6 @@
       },
       "icon": "IBM.svg",
       "website": "http://ibm.com/software/webservers/httpservers"
-    },
-    "HCL Commerce": {
-      "cats": [
-        6
-      ],
-      "html": "<(?:a|link|script)[^>]*(?:href|src)=\".*(?:/wcsstore/|webapp\\/wcs)",
-      "icon": "HCL Commerce.svg",
-      "implies": "Java",
-      "pricing": [
-        "poa"
-      ],
-      "saas": true,
-      "url": "/wcs/",
-      "website": "https://www.hcltechsw.com/products/commerce"
     },
     "IIS": {
       "cats": [
