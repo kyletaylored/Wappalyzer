@@ -4185,6 +4185,23 @@
       "saas": true,
       "website": "http://www.contentful.com"
     },
+    "Contentstack": {
+      "cats": [
+        1
+      ],
+      "description": "Contentstack is an API first, headless CMS giving developers development freedom and marketers a way to engage audiences in real time across multiple channels.",
+      "headers": {
+        "Server": "^(c|C)?ontentstack",
+        "x-powered-by": "\\b(c|C)ontentstack\\b"
+      },
+      "icon": "contentstack.svg",
+      "pricing": [
+        "high",
+        "recurring"
+      ],
+      "saas": true,
+      "website": "https://www.contentstack.com"
+    },
     "ConversionLab": {
       "cats": [
         10
@@ -17477,7 +17494,7 @@
         }
       },
       "js": {
-        "analyticsHost": "stats\\.uscreen\\.io" 
+        "analyticsHost": "stats\\.uscreen\\.io"
       },
       "icon": "Uscreen.svg",
       "website": "https://uscreen.tv/",
