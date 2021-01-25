@@ -4191,8 +4191,8 @@
       ],
       "description": "Contentstack is an API first, headless CMS giving developers development freedom and marketers a way to engage audiences in real time across multiple channels.",
       "headers": {
-        "Server": "^(c|C)?ontentstack",
-        "x-powered-by": "\\b(c|C)ontentstack\\b"
+        "Server": "^Contentstack",
+        "x-powered-by": "\\bcontentstack\\b"
       },
       "icon": "contentstack.svg",
       "pricing": [
